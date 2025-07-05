@@ -1,0 +1,121 @@
+ *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html, body{
+    line-height: 1.7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+   font-size: 18px; 
+
+color: white;
+}
+/* gobal css */
+img{
+  
+}
+a{
+    text-decoration: none;
+    color: white;
+  }
+ 
+li{
+  list-style-type: none;
+}
+.wrapper{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+input {
+ 
+  all: unset;
+  
+}
+button{
+  all: unset;
+}
+
+ /* css */
+/* navbar */
+header{
+  border-bottom:1px solid rgb(149, 142, 142) ;
+  background-color: rgb(87, 168, 87);
+  color: white;
+}
+.mainnav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  
+}
+.logo img{
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 50%;
+}
+.mobilenav{
+  border: 1px solid white;
+  max-width: 40px;
+  max-height: 40px;
+  padding: 5px;
+}
+.mobilenav span{
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  display: block;
+  margin: 3px 0px;
+  
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-transform: capitalize;
+}
+.srech{
+  border: 1px solid white;
+  padding: 4px;
+  text-transform: capitalize;
+  height: 40px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+
+  
+}
+.btn button{
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 5px;
+}
+.btn{
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+@media (max-width:786px) {
+  nav{
+    display: none;
+  }
+  .srech{
+     display: none; 
+  }
+ 
+  .logo{
+    display: none;
+  }
+  
+}
+@media (min-width:786px) {
+  .mobilenav{
+    display: none;
+  }
+}
